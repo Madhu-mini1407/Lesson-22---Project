@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>The Impact of Artificial Intelligence on Modern Society</h1>
+    <p id="demo"></p>
+    <h1>Let's find the largest numeral!!!!!!!</h1>
+    <p id="result"></p>
+    <script>
+        var person = { name: "Alan Turing", age: 41 }
+            document.getElementById("demo").innerHTML = person.name + " ,the person who found AI was " + person["age"] + " years old when he passed away."
+            var value = Math.abs(-9.11);
+                document.write("The absolute value of -9.11 is " + value + "<br>");
+                var ematics = Math.floor(45.52);
+                document.write("The numeral is " + ematics + "<br>")
+                var teak = Math.ceil(28.6);
+                document.write("The num is " + teak + "<br>")
+                var bow = Math.sqrt(625);
+                document.write("The Square Root of 625 is " + bow + "<br>")
+                function findmax() {
+                        var h;
+                        var max = 0;
+                        for (h = 0; h < arguments.length; h++) {
+                            if (arguments[h] > max) { max = arguments[h]; }
+                        }
+                        return max;
+                    }
+                    document.getElementById("result").innerHTML = findmax(15, 230, 78019, 456000, 4589.99);
+    </script>
+</body>
+</html>
